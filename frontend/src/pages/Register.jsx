@@ -29,9 +29,10 @@ const handleOnSubmit = async (e) => {
           .then((res) => res.json())
           .then((array) => {
               console.log(array);
-              setMessage(array)
+          
           });
- 
+
+    }
   
   
     // let result = await fetch(
