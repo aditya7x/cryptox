@@ -17,7 +17,7 @@ function ModalDialog(props) {
   const [active, setActive] = useState(false);
   const [active2, setActive2] = useState(false);
   const [active3, setActive3] = useState(false);
-  // const emails = props.email;
+  const emails = "smd@hdffgsg";
   const name = props.Name;
   const buyat = props.Price;
 
@@ -72,7 +72,7 @@ if(amount === '' && Time < 100 ){
     axios({ 
       method: 'post', 
       url: 'https://cryptox-nine.vercel.app/trade', 
-      data: { email: "smd@hdffgsg", item: name, direction: action, buyprice: buyat,money:amount,time: Time  } 
+      data: { email: emails, item: name, direction: action, buyprice: buyat,money:amount,time: Time  } 
       }).then(response => {
          
       });
