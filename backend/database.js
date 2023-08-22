@@ -19,12 +19,7 @@ app.use(
   })
 );
 
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "cryptox-6149.vercel.app");
-  res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT");
-  res.setHeader("Access-Control-Allow-Headers", "Origin,Content-Type,Accept");
-  next();
-})
+
 app.use(express.static(__dirname + '/public/'))
 
 
