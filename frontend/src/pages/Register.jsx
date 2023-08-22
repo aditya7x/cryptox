@@ -34,7 +34,7 @@ const handleOnSubmit = async (e) => {
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
-        }
+        },
     
         method: "post",
         body: JSON.stringify({firstname, lastname, email, password ,funds}),
