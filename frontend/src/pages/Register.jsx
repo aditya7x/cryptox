@@ -25,7 +25,12 @@ const handleOnSubmit = async (e) => {
    e.preventDefault();
     if(invitationCode === "abc@123"){
      
-     
+      fetch("https://cryptox-nine.vercel.app/crypto")
+          .then((res) => res.json())
+          .then((array) => {
+              console.log(array);
+              setMessage(array)
+          });
  
   
   
