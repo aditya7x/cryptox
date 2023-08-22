@@ -25,48 +25,43 @@ const handleOnSubmit = async (e) => {
    e.preventDefault();
     if(invitationCode === "abc@123"){
      
-      fetch("https://cryptox-nine.vercel.app/crypto")
-          .then((res) => res.json())
-          .then((array) => {
-              console.log(array);
-          
-          });
+   
 
-    }
-  
-  
-    // let result = await fetch(
-    // 'https://cryptox-nine.vercel.app/register', {
-    //   mode: 'cors',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //     },
     
-    //     method: "post",
-    //     body: JSON.stringify({firstname, lastname, email, password ,funds}),
+  
+  
+    let result = await fetch(
+    'https://cryptox-nine.vercel.app/register', {
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json',
+        },
+    
+        method: "post",
+        body: JSON.stringify({firstname, lastname, email, password ,funds}),
 
       
-    // })
+    })
  
     
 
-//     if (result) {
-//         alert("Data saved succesfully");
-//         setInvitation("");
-//         setFirst("");
-//         setLast("");
-//         setEmail("");
-//         setPassword("");
-//         props.sendEmail(email)
-//         navigate('/home');
-//     }else{
-//       alert("something went wrong")
-//     }
-// }else{
-//     alert("invalid invitation code");
-// }
-
+    if (result) {
+        alert("Data saved succesfully");
+        setInvitation("");
+        setFirst("");
+        setLast("");
+        setEmail("");
+        setPassword("");
+        props.sendEmail(email)
+        navigate('/home');
+    }else{
+      alert("something went wrong")
+    }
+}else{
+    alert("invalid invitation code");
 }
+
+
 
 
  return(
