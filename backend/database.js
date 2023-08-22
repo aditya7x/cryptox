@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const app = express();
 const mongoose = require('mongoose');
 const cors = require("cors");
-import allowcors from "./allowcors.js"
+
 
 const DB = 'mongodb+srv://nathaditya446:RLsmWbntiW87SRfq@cluster0.zmwcs6m.mongodb.net/crypto?retryWrites=true&w=majority'
 
