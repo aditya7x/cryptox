@@ -50,14 +50,9 @@ function Trade(props){
     }, []);
 
  
-    if(email === "ggsgs"){
-      navigate('/')
-      return(
-         <Routes> <Route path="/" element={<Register  />} /></Routes>
-         
-      )
+ 
       
-   }else{
+
 
     return(
         <section >
@@ -108,6 +103,6 @@ function Trade(props){
       
     )
                 }
-}
+
 
 export default Trade;
