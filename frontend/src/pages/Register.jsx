@@ -49,21 +49,21 @@ const handleOnSubmit = async (e) => {
  
     
 
-    if (result) {
-        alert("Data saved succesfully");
-        setInvitation("");
-        setFirst("");
-        setLast("");
-        setEmail("");
-        setPassword("");
-        props.sendEmail(email)
-        navigate('/home');
-    }else{
-      alert("something went wrong")
-    }
-}else{
-    alert("invalid invitation code");
-}
+//     if (result) {
+//         alert("Data saved succesfully");
+//         setInvitation("");
+//         setFirst("");
+//         setLast("");
+//         setEmail("");
+//         setPassword("");
+//         props.sendEmail(email)
+//         navigate('/home');
+//     }else{
+//       alert("something went wrong")
+//     }
+// }else{
+//     alert("invalid invitation code");
+// }
 
 }
 
