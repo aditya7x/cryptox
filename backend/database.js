@@ -18,6 +18,7 @@ app.use(
     
   })
 );
+app.options('*', cors()) // include before other routes
 
 
 app.use(express.static(__dirname + '/public/'))
