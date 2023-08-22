@@ -29,18 +29,18 @@ const handleOnSubmit = async (e) => {
  
   
   
-    let result = await fetch(
-    'https://cryptox-nine.vercel.app/register', {
-      mode: 'cors',
-      headers: {
-        'Content-Type': 'application/json',
-        },
+    // let result = await fetch(
+    // 'https://cryptox-nine.vercel.app/register', {
+    //   mode: 'cors',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     },
     
-        method: "post",
-        body: JSON.stringify({firstname, lastname, email, password ,funds}),
+    //     method: "post",
+    //     body: JSON.stringify({firstname, lastname, email, password ,funds}),
 
       
-    })
+    // })
  
     
 
