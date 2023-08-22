@@ -60,6 +60,7 @@ const handleOnSubmit = async (e) => {
 }else{
     alert("invalid invitation code");
 }
+}
 
 
 
