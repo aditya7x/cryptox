@@ -19,14 +19,14 @@ app.use(
   })
 );
 
-app.all('/', function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
+// app.all('/', function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
 
-res.header("Access-Control-Allow-Headers", "X-Requested-With");
+// res.header("Access-Control-Allow-Headers", "X-Requested-With");
 
-next()
+// next()
 
-});
+// });
 // Add headers before the routes are defined
 // app.use(function (req, res, next) {
 
@@ -81,7 +81,11 @@ const User = mongoose.model("User", Credentialschema);
 User.createIndexes();
 
 app.post("/register", async (req, resp, next) => {
-   
+    res.header("Access-Control-Allow-Origin", "*");
+
+   res.header("Access-Control-Allow-Headers", "X-Requested-With");
+
+   next()
       try {
       console.log(req.body)
        const user = new User(req.body);
