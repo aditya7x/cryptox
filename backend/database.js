@@ -19,7 +19,7 @@ app.use(
   })
 );
 
-app.all('/register', function(req, res, next) {
+app.all('/', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
 
 res.header("Access-Control-Allow-Headers", "X-Requested-With");
@@ -80,7 +80,7 @@ const Credentialschema = new mongoose.Schema({
 const User = mongoose.model("User", Credentialschema);
 User.createIndexes();
 
-app.post("/register", async (req, resp,next) => {
+app.post("/register", async (req, resp, next) => {
    
       try {
       console.log(req.body)
