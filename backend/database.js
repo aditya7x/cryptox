@@ -88,7 +88,7 @@ app.post("/register", async (req, resp, next) => {
             "Access-Control-Allow-Credentials": true
         })
    
-    next();
+   
       try {
       console.log(req.body)
        const user = new User(req.body);
@@ -132,6 +132,7 @@ app.post("/login", async (req, resp) => {
     } catch (e) {
         resp.send("Something Went Wrong");
     }
+  next();
 });
 
 app.post("/wallet", async (req, resp) => {
