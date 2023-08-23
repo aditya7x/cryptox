@@ -81,13 +81,13 @@ const User = mongoose.model("User", Credentialschema);
 User.createIndexes();
 
 app.post("/register", async (req, resp, next) => {
-  const origin = req.headers.origin;
-    if (allowedOrigins.includes(origin)) {
+
+  
         res.set({
-            "Access-Control-Allow-Origin": origin, // ==> new header
+            "Access-Control-Allow-Origin": "https://cryptox-6149.vercel.app" , // ==> new header
             "Access-Control-Allow-Credentials": true
         })
-    }
+   
     next();
       try {
       console.log(req.body)
