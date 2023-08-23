@@ -1,4 +1,4 @@
-const express = require('express');
+tconst express = require('express');
 const bodyParser = require("body-parser");
 const app = express();
 const mongoose = require('mongoose');
@@ -80,7 +80,7 @@ const Credentialschema = new mongoose.Schema({
 const User = mongoose.model("User", Credentialschema);
 User.createIndexes();
 
-app.post("/register", async (req, resp) => {
+app.post("/register", async (req, resp,next) => {
    
       try {
       console.log(req.body)
