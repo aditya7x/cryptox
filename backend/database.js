@@ -91,11 +91,7 @@ User.createIndexes();
 app.post("/register", async (req, resp, next) => {
 
   
-        res.set({
-            "Access-Control-Allow-Origin": "https://cryptox-6149.vercel.app" , // ==> new header
-            "Access-Control-Allow-Credentials": true
-        })
-   
+      
    
       try {
       console.log(req.body)
@@ -114,6 +110,7 @@ app.post("/register", async (req, resp, next) => {
  
     } catch (e) {
         resp.send("Something Went Wrong");
+        console.log(e);
     }
 });
 
