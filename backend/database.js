@@ -11,13 +11,13 @@ mongoose.connect(DB);
 
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(express.json());
-app.use(
-  cors({
-  "origin": "https://cryptox-6149.vercel.app",
-  methods: ["GET","HEAD","PUT","PATCH","POST","DELETE"]
-    
-  })
-);
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  next();
+})
+
 
 // app.all('/', function(req, res, next) {
 //   res.header("Access-Control-Allow-Origin", "*");
