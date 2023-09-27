@@ -16,11 +16,12 @@
   }
 
 .size{
-    height: 2250px;
+    height: 100vh;
 }
 
 .container{
-    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .bada{
