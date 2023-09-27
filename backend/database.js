@@ -168,7 +168,7 @@ app.post("/login", async (req, resp) => {
     } catch (e) {
         resp.send("Something Went Wrong");
     }
-  next();
+
 });
 
 app.post("/wallet", async (req, resp) => {
