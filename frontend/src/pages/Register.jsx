@@ -87,7 +87,7 @@ const handleOnSubmit = async (e) => {
                 <div className="card-body px-4 py-5 px-md-5">
                   <form>
                     {/* <!-- 2 column grid layout with text inputs for the first and last names --> */}
-                    <div className="row">
+                   
                       <div className="col-md-6 mb-4">
                         <div className="form-outline">
                           <input type="text" id="form3Example1" className="form-control" value={firstname} onChange={(e) => setFirst(e.target.value)}/>
@@ -100,7 +100,7 @@ const handleOnSubmit = async (e) => {
                           <label className="form-label" for="form3Example2">Last name</label>
                         </div>
                       </div>
-                    </div>
+                    
       
                     {/* <!-- Email input --> */}
                     <div className="form-outline mb-4">
