@@ -88,10 +88,10 @@ const handleOnSubmit = async (e) => {
                   <form>
                     {/* <!-- 2 column grid layout with text inputs for the first and last names --> */}
                    
-                      <div className="col-md-6 mb-4">
-                        <div className="form-outline">
-                          <input type="text" id="form3Example1" className="form-control" value={firstname} onChange={(e) => setFirst(e.target.value)}/>
-                          <label className="form-label" for="form3Example1">First name</label>
+                      <div className="fisrtname">
+                        <div className="">
+                          <input type="text" id="form3Example1" className="fir" value={firstname} onChange={(e) => setFirst(e.target.value)}/>
+                          <label className="naamkaran1" for="form3Example1">First name</label>
                         </div>
                       </div>
                       <div className="col-md-6 mb-4">
