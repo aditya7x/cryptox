@@ -29,6 +29,21 @@
     font-size: 100px;
 }
 
+.firstname{
+  width: 100%;
+  
+}
+
+.fir{
+  height: 100px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.naamkaran1{
+  font-size: 40px;
+}
+
   #radius-shape-1 {
     height: 220px;
     width: 220px;
