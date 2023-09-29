@@ -17,7 +17,7 @@ function ModalDialog(props) {
   const [active, setActive] = useState(false);
   const [active2, setActive2] = useState(false);
   const [active3, setActive3] = useState(false);
-  const emails = "smd@hdffgsg";
+  const emails = props.email;
   const name = props.Name;
   const buyat = props.Price;
 
