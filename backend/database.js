@@ -191,7 +191,7 @@ app.post("/trade", async (req, resp) => {
   const buyprice = Number(req.body.buyprice)
  
   // setTimeout(myfunction,interval)
-  await myfunction();
+  
   
   async function myfunction(){
       console.log("working");
