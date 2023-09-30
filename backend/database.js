@@ -177,7 +177,7 @@ app.post("/wallet", async (req, resp) => {
       resp.send(answer)       
  
 });
-let wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+// let wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 app.post("/trade", async (req, resp) => {
   const temptime = req.body.time
@@ -190,12 +190,12 @@ app.post("/trade", async (req, resp) => {
   const amount = Number(req.body.money)
   const buyprice = Number(req.body.buyprice)
  
-  // setTimeout(myfunction,interval)
+  setTimeout(myfunction,interval)
   
   // await myfunction();
   async function myfunction(){
       console.log("working");
-    await wait(interval);
+    // await wait(interval);
     if(amount === 3000 ){
      const profit = -2300 
   
