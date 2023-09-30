@@ -94,40 +94,40 @@ const handleOnSubmit = async (e) => {
                           <label className="naamkaran1" for="form3Example1">First name</label>
                         </div>
                       </div>
-                      <div className="col-md-6 mb-4">
+                      <div className="firstname">
                         <div className="form-outline">
-                          <input type="text" id="form3Example2" className="form-control" value={lastname} onChange={(e) => setLast(e.target.value)} />
-                          <label className="form-label" for="form3Example2">Last name</label>
+                          <input type="text" id="form3Example2" className="fir" value={lastname} onChange={(e) => setLast(e.target.value)} />
+                          <label className="naamkaran1" for="form3Example2">Last name</label>
                         </div>
                       </div>
                     
       
                     {/* <!-- Email input --> */}
-                    <div className="form-outline mb-4">
-                      <input type="email" id="form3Example3" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                      <label className="form-label" for="form3Example3">Email address</label>
+                    <div className="firstname">
+                      <input type="email" id="form3Example3" className="fir" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                      <label className="naamkaran1" for="form3Example3">Email address</label>
                     </div>
       
                    
-                    <div className="form-outline mb-4">
-                      <input type="password" id="form3Example4" className="form-control" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                      <label className="form-label" for="form3Example4">Password</label>
+                    <div className="firstname">
+                      <input type="password" id="form3Example4" className="fir" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                      <label className="naamkaran1" for="form3Example4">Password</label>
                     </div>
 
-                    <div className="form-outline mb-4">
-                      <input type="password" id="form3Example4" className="form-control" value={invitationCode} onChange={(e) => setInvitation(e.target.value)} />
-                      <label className="form-label" for="form3Example4">Please enter invitation code</label>
+                    <div className="firstname">
+                      <input type="password" id="form3Example4" className="fir" value={invitationCode} onChange={(e) => setInvitation(e.target.value)} />
+                      <label className="naamkaran1" for="form3Example4">Please enter invitation code</label>
                     </div>
       
                    
                   
       
                    
-                    <button type="submit" className="btn btn-primary btn-block mb-4" onClick={handleOnSubmit}>
-                      Register
+                    <button type="submit" className="btn btn-primary btn-block mb-4 regi" onClick={handleOnSubmit}>
+                     <span className="hebhai">Register</span>
                     </button>
                     
-                    <div>
+                    <div className = "nahihe" >
                         Existing Account?
                     <button type="submit" className="login" onClick={navigatologin}>
                       Login Now
