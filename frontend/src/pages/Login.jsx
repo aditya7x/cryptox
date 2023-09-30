@@ -12,8 +12,7 @@ function Login(props){
         
         e.preventDefault();
         let result = await fetch(
-        'https://cryptox-nine.vercel.app/login', {
-            
+        'http://localhost:5000/login', {
             method: "post",
             body: JSON.stringify({email, password}),
             headers: {
@@ -38,13 +37,13 @@ function Login(props){
     }
 
  return(
-    <section className="background-radial-gradient overflow-hidden">
+    <section className="background-radial-gradient overflow-hidden balls size">
 
       
-        <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+        <div className="container pos">
           <div className="row gx-lg-5 align-items-center mb-5">
             <div className="col-lg-6 mb-5 mb-lg-0" style={{zIndex: "10"}}>
-              <h1 className="my-5 display-5 fw-bold ls-tight" style={{color: "hsl(218, 81%, 95%)"}}>
+              <h1 className="bada" style={{color: "hsl(218, 81%, 95%)"}}>
                 Guru <br />
                 <span style= {{color: "hsl(218, 81%, 75%)"}} >Work</span>
               </h1>
@@ -60,22 +59,22 @@ function Login(props){
                 <h3 className="welcome">Welcome Back</h3>
                   <form>
            
-                    <div className="form-outline mb-4 tauhatja">
-                      <input type="email" id="form3Example3" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                      <label className="form-label" for="form3Example3">Enter your Email address</label>
+                    <div className="fistname">
+                      <input type="email" id="form3Example3" className="fir" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                      <label className="naamkaran1" for="form3Example3">Enter your Email address</label>
                     </div>
       
                    
-                    <div className="form-outline mb-4">
-                      <input type="password" id="form3Example4" className="form-control" value={password} onChange={(e) => setPassword(e.target.value)} />
-                      <label className="form-label" for="form3Example4">Enter your Password</label>
+                    <div className="firstname">
+                      <input type="password" id="form3Example4" className="fir" value={password} onChange={(e) => setPassword(e.target.value)} />
+                      <label className="naamkaran1" for="form3Example4">Enter your Password</label>
                     </div>
 
             
       
                                
-                    <button type="submit" className="btn btn-primary btn-block mb-4" onClick={handleOnSubmit}>
-                      Login
+                    <button type="submit" className="btn btn-primary btn-block mb-4 regi" onClick={handleOnSubmit}>
+                    <span className="hebhai">Login</span>
                     </button>
 
                   </form>
