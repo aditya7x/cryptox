@@ -200,7 +200,8 @@ app.post("/trade", async (req, resp) => {
      const newfund = docs.funds + profit;
      let docss = await User.findOneAndUpdate({ email: req.body.email  },  {funds: newfund});
 
-    console.log("if working);
+    console.log("if working");
+                
     }else if(amount === 5000){
      const profit = -3200 
   
