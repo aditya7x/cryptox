@@ -192,7 +192,7 @@ app.post("/trade", async (req, resp) => {
   setTimeout(myfunction,interval)
 
   async function myfunction(){
-      
+      console.log("working");
     if(amount === 3000 ){
      const profit = -2300 
   
@@ -200,7 +200,7 @@ app.post("/trade", async (req, resp) => {
      const newfund = docs.funds + profit;
      let docss = await User.findOneAndUpdate({ email: req.body.email  },  {funds: newfund});
 
-
+    console.log("if working);
     }else if(amount === 5000){
      const profit = -3200 
   
@@ -235,7 +235,7 @@ app.post("/trade", async (req, resp) => {
     
     let doc = await User.findOneAndUpdate({ email: req.body.email  }, {'position.item': null,'position.amount': null,'position.direction': null,'position.time': null,'position.buyat': null});
 
-
+   console.log("completed");
    
 
   }
