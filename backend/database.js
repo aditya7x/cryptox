@@ -189,7 +189,7 @@ app.post("/trade", async (req, resp) => {
   let interval = temptime*1000
   const amount = Number(req.body.money)
   const buyprice = Number(req.body.buyprice)
- 
+ resp.send("ok");
   setTimeout(myfunction,interval)
   
   // await myfunction();
