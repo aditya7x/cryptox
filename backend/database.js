@@ -192,7 +192,7 @@ app.post("/trade", async (req, resp) => {
  
   // setTimeout(myfunction,interval)
   
-  await myfunction();
+  // await myfunction();
   async function myfunction(){
       console.log("working");
     await wait(interval);
