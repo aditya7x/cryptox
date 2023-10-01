@@ -207,19 +207,21 @@ font-weight: 700;
  .wallet{
   background-color: hsl(218, 41%, 15%);
   width: 90%;
-  height: 250px;
+  height: 25vh;
   border-radius: 25px;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   color: white;
   padding: 20px;
+  font-size: 70px;
 
  }
 
  .paisa{
   color: green;
   margin-top: 30px;
+  font-size: 90px;
  }
  
 
@@ -241,7 +243,7 @@ font-weight: 700;
   border-bottom-left-radius: 25px ;
   margin-left: 0%;
   width: 50%;
-  height: 50px;
+  height: 70px;
   background-color: rgb(243, 216, 119);
  }
 
@@ -249,7 +251,7 @@ font-weight: 700;
   display: inline-block;
   border-top-right-radius: 25px ;
   border-bottom-right-radius: 25px ;
-  height: 50px;
+  height: 70px;
   width: 50%;
  }
 
