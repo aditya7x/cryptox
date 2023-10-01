@@ -326,13 +326,14 @@ font-weight: 700;
 
 .paisabox{
   width: 90%;
-  height: 70px;
+  height: 9vh;
   background-color:#040225;
   color: white;
   border-radius: 10px;
   padding: 1px;
   margin-top: 15px;
-  
+  font-size: 40px;
+  padding-top: 1px;
 }
 
 .blue{
