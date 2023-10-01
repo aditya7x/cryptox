@@ -131,7 +131,7 @@ font-weight: 700;
 
   .Home{
     background-color:#040225;
-    font-size: 40px;
+    font-size: 50px;
    
   }
 
@@ -175,11 +175,14 @@ font-weight: 700;
     border-bottom: 1px solid white;
     width: 100%;
     display: block;
+    height: 20vh;
+    font-size: 50px;
+  
   }
 
  .white{
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   display: inline-block;
   margin-left: 15px;
  }
@@ -216,6 +219,7 @@ font-weight: 700;
   margin-right: auto;
   border-radius: 25px;
   margin-bottom: 5px;
+
   
  }
  .wallet{
@@ -245,7 +249,7 @@ font-weight: 700;
   width: 50%;
   height: 50px;
   background-color: rgb(243, 216, 119);
-     font-size: 30px;
+  font-size: 30px;
  }
 
  .with{
@@ -254,7 +258,7 @@ font-weight: 700;
   border-bottom-right-radius: 25px ;
   height: 50px;
   width: 50%;
-    font-size: 30px;
+  font-size: 30px;
  }
 
  .position{
@@ -295,16 +299,27 @@ font-weight: 700;
  .buy{
   background-color: rgb(121, 227, 55);
   border-radius: 25px;
-  width: 100px;
-  
+  width: 50vw;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  height: 5vh;
+  font-size: 30px;
  }
 
  .sell{
-  margin-left: 10px;
+  
   background-color: red;
   border-radius: 25px;
-  width: 100px;
-  
+  width: 50vw;
+  position: fixed;
+  bottom: 0%;
+  height: 5vh;
+  font-size: 30px;
+ }
+
+ .buysell{
+  font-size: 30px;
  }
 
  .popup-content {
@@ -495,6 +510,7 @@ font-weight: 700;
 
 .homies{
   background-color: #040225;
+  
 
 }
 
@@ -661,3 +677,6 @@ font-weight: 700;
   background-size: 100%;
 }
 
+.tradingview-widget-container{
+  margin-top: 15vh;
+}
