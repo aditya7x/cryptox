@@ -46,8 +46,8 @@ export default function TradingViewWidget(props) {
       function createWidget() {
         if (document.getElementById('tradingview_cc525') && 'TradingView' in window) {
           new window.TradingView.widget({
-            width: 800,
-            height: 1500,
+            width: 950,
+            height: 1250,
             symbol: symbol,
             interval: "5",
             timezone: "Etc/UTC",
