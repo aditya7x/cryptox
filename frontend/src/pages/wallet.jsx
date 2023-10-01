@@ -56,7 +56,7 @@ function Wallet(props){
         <section>
          
          <div className="wallet">
-         <h5>Fund information </h5>
+         <h1>Fund information </h1>
          <h7 className="total">Total funds</h7>
          <h1 className="paisa">{Fund} INR</h1>
          </div>
