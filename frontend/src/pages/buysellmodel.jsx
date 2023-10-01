@@ -116,10 +116,10 @@ if(amount === '' && Time < 100 ){
   return (
     <>
       <Button className="buy" value="BUY" variant="success" onClick={initModal}>
-        BUY
+         <span className='buysell'>BUY</span>
       </Button>
       <Button style={{backgroundColor: "red"}} className="sell" value= "SELL" variant="success" onClick={initModal}>
-        SELL
+         <span className='buysell'>SELL</span>
       </Button>
       <Modal show={isShow}>
         <Modal.Header closeButton onClick={endModal}>
