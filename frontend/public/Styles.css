@@ -215,7 +215,7 @@ font-weight: 700;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
-
+  margin-bottom: 5px;
   
  }
  .wallet{
@@ -245,6 +245,7 @@ font-weight: 700;
   width: 50%;
   height: 50px;
   background-color: rgb(243, 216, 119);
+     font-size: 30px;
  }
 
  .with{
@@ -253,6 +254,7 @@ font-weight: 700;
   border-bottom-right-radius: 25px ;
   height: 50px;
   width: 50%;
+    font-size: 30px;
  }
 
  .position{
