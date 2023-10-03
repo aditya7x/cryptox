@@ -137,9 +137,9 @@ if(amount === '' && Time < 100 ){
           <div>
             <h4>Trading Time</h4>
             <center>
-            <Button style ={{'backgroundColor': "#040225",border: active ? "5px solid blue":"none"}} className='timings'  onClick={() => samey(120)}><center><span className='time'>Time</span><span className='blues'>120S</span><span className='greens'>Scale:40.00%</span> </center></Button>
-            <Button style ={{'backgroundColor': "#040225",border: active2 ? "5px solid blue":"none"}} className='timings'  onClick={() => samey(180)}><center><span className='time'>Time</span><span className='blues'>180S</span><span className='greens'>Scale:30.00%</span></center> </Button>
-            <Button style ={{'backgroundColor': "#040225",border: active3 ? "5px solid blue":"none"}} className='timings'  onClick={() => samey(240)}><center><span className='time'>Time</span><span className='blues'>240S</span><span className='greens'>Scale:30.00%</span></center> </Button>
+            <Button style ={{'backgroundColor': "#040225",border: active ? "5px solid blue":"none"}} className='timings'  onClick={() => samey(120)}><center><span className='time'>Time</span><span className='blues'>120S</span><span className='greens'>Scale:40%</span> </center></Button>
+            <Button style ={{'backgroundColor': "#040225",border: active2 ? "5px solid blue":"none"}} className='timings'  onClick={() => samey(180)}><center><span className='time'>Time</span><span className='blues'>180S</span><span className='greens'>Scale:30%</span></center> </Button>
+            <Button style ={{'backgroundColor': "#040225",border: active3 ? "5px solid blue":"none"}} className='timings'  onClick={() => samey(240)}><center><span className='time'>Time</span><span className='blues'>240S</span><span className='greens'>Scale:30%</span></center> </Button>
           </center>
           </div>
 <hr></hr>
