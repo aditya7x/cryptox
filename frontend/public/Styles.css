@@ -199,7 +199,7 @@ font-weight: 700;
   color: white;
   font-size: 35px;
   display: inline-block;
-  margin-left: 15px;
+margin-right: 30px;
  }
 
  .btc{
@@ -418,7 +418,8 @@ font-weight: 700;
   margin-bottom: 5vh;
  border: 2px solid white;
  padding-top: 50px;
- padding-left: 25%;
+ padding-left: 15%;
+ font-size: 30px;
 
 
 }
@@ -512,16 +513,21 @@ font-weight: 700;
 }
 
 .et,.do,.bt{
-  display: inline;
-}
-
-.bt{
-  margin-left: -30px;
+  display: inline-block;
   margin-right: 30px;
 }
 
+.bt{
+ 
+
+}
+
 .et{
-  margin-right: 70px;
+  /* margin-right: 70px; */
+}
+
+.do{
+  margin-left: 50px;
 }
 
 .homies{
