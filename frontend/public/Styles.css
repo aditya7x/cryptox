@@ -601,7 +601,7 @@ font-weight: 700;
 .time{
   display: block;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .blues,.greens{
@@ -611,13 +611,13 @@ font-weight: 700;
 
 .blues{
   color: #0000FF;
-  font-size: 40px;
+  font-size: 30px;
   
 }
 
 .greens{
   color: green;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .inputs{
