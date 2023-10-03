@@ -132,7 +132,7 @@ if(amount === '' && Time < 100 ){
           
            
         
-           <div> current price:<span style={{fontWeight: "bold", color: "green"}}>{props.Price}</span> &nbsp;  &nbsp; direction: <span style={{fontWeight: "bold",color: "green"}}>{action}</span></div>
+           <div  className="cp"> current price:<span style={{fontWeight: "bold", color: "green"}}>{props.Price}</span> &nbsp;  &nbsp; direction: <span style={{fontWeight: "bold",color: "green"}}>{action}</span></div>
       <hr></hr>
           <div>
             <h4>Trading Time</h4>
