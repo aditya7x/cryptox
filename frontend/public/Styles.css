@@ -56,6 +56,21 @@ input[type="email"]
     font-size:40px;
 }
 
+input[type="number"]
+{
+    font-size:40px;
+}
+
+
+input[type="password"]
+{
+    font-size:40px;
+}
+
+Modal{
+  margin-top: 20vh ;
+}
+
 .regi{
   width: 100%;
   font-size: 100px;
@@ -575,9 +590,11 @@ font-weight: 700;
 .timings{
   background-color: #040225;
   margin-top: 10px;
-  margin-left: 10px;
-  width: 100px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
+  font-weight: 30px;
+  margin-left: 1px;
   
 }
 
@@ -678,7 +695,7 @@ font-weight: 700;
 }
 
 .tradingview-widget-container{
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 .shakti{
@@ -700,4 +717,8 @@ input[type=radio] {
 .closedd{
   width: 30%;
   font-size: 20px;
+}
+
+.cp{
+  font-size: 30px;
 }
