@@ -447,7 +447,8 @@ font-weight: 700;
   height: 50px;
   border: 2px solid white;
   padding-top: 10px;
-  padding-left: 7%;
+  padding-left: 0%;
+  font-size: 25px;
 }
 
 .sizematter{
