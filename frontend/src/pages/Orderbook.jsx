@@ -2,6 +2,7 @@ import React,{useEffect, useState} from "react";
 import Footer from "./Footer";
 import axios from "axios"
 import {Routes, Route, useNavigate} from 'react-router-dom'
+import Countdown from 'react-countdown';
 
 import Register from "./Register";
 
@@ -121,7 +122,9 @@ function Orderbook(props){
             <center><span className="styling">{items}</span></center>
             <hr></hr>
           <div><span className="orderhatja1">Investment amount</span><span className="orderhatja2">Direction</span><span className="orderhatja3">Investment Time</span></div>
-          <div><span className="orderjyadax styling">{amount} </span><span className="orderjyada styling">{direction === "BUY" ?<span className="green styling">{direction} </span>:<span className="red styling">{direction}</span>}</span><span className=" styling">{time}</span></div>
+          <div><span className="orderjyadax styling">{amount} </span><span className="orderjyada styling">{direction === "BUY" ?<span className="green styling">{direction} </span>:<span className="red styling">{direction}</span>}</span><span className=" styling"><Countdown date={Date.now() + time + 1000}>
+      
+    </Countdown></span></div>
           <div className="uparhoja">Buy price:<span className="styling">{buyat}</span></div>
           <div className="uparhoja">Closing price: ___</div>
           <div className="uparhoja">Profit: ___ </div>
